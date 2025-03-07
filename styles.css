@@ -1,0 +1,72 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Container for centering content */
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Input styling */
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Result field styling */
+  #result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  /* Responsive adjustments for small screens */
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+    
+    .container {
+      width: 100%;
+      padding: 15px;
+    }
+    
+    input[type="number"], button {
+      font-size: 1.4em;
+      padding: 12px;
+    }
+    
+    #result {
+      font-size: 1.8em;
+    }
+  }
